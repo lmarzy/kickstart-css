@@ -1,0 +1,16 @@
+{
+  "name": "kickstart-css",
+  "version": "0.0.1",
+  "description": "Kickstart CSS for a new project",
+  "main": "index.js",
+  "repository": "https://github.com/lmarzy/kickstart-css.git",
+  "author": "Lee Marsden",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.1",
+    "postcss-cli": "^4.1.1"
+  }
+}
