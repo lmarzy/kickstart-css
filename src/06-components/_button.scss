@@ -1,9 +1,9 @@
 // ========================================================================
-// ELEMENTS/FORMS
+// COMPONENTS/BUTTON
 // ========================================================================
 
-// Remove default border
-
-fieldset {
-  border: none;
+.c-btn {
+  display: inline-block;
+  padding: spacing(2) spacing(4);
+  text-align: center;
 }

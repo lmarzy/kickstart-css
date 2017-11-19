@@ -1,9 +1,12 @@
 // ========================================================================
-// ELEMENTS/FORMS
+// HELPERS/TOOLS/FUNCTIONS/PX-TO-REM
 // ========================================================================
 
-// Remove default border
+// usage
+// rem(24px);
 
-fieldset {
-  border: none;
+@function rem($px-size) {
+  $rem-size: $px-size / $font-size-px;
+
+  @return #{$rem-size}rem;
 }

@@ -1,5 +1,5 @@
 // ========================================================================
-// BASE/PAGE
+// ELEMENTS/PAGE
 // ========================================================================
 
 // min-height - Ensures the page fills at least the entire height of the viewport
@@ -11,26 +11,18 @@
 // background-color - Set for page background colour
 // -ms* - Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.
 
+@if variable-exists(font-url) {
+  @import url($font-url);
+}
+
 html {
   min-height: 100%;
-  box-sizing: border-box;
   font-size: $font-size;
   font-family: $font-family;
   line-height: $line-height;
-  color: $colour-text;
-  background-color: $colour-bg;
+  color: $col-text;
+  background-color: $col-bg;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-// Remove default margin
-
-body {
-  margin: 0;
-}

@@ -1,9 +1,6 @@
 // ========================================================================
-// ELEMENTS/FORMS
+// BASE/IMPORTS
 // ========================================================================
 
-// Remove default border
-
-fieldset {
-  border: none;
-}
+@import 'box-sizing';
+@import 'reset';

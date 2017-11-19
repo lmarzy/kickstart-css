@@ -1,9 +1,6 @@
 // ========================================================================
-// ELEMENTS/FORMS
+// SETTINGS/LAYOUT
 // ========================================================================
 
-// Remove default border
-
-fieldset {
-  border: none;
-}
+$max-width      : 1224px;
+$grid-columns   : 12;

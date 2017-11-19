@@ -1,9 +1,13 @@
 // ========================================================================
-// ELEMENTS/FORMS
+// BASE/BOX-SIZING
 // ========================================================================
 
-// Remove default border
+html {
+  box-sizing: border-box;
+}
 
-fieldset {
-  border: none;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }

@@ -1,9 +1,10 @@
 // ========================================================================
-// ELEMENTS/FORMS
+// HELPERS/TOOLS/FUNCTIONS/SPACINGS
 // ========================================================================
 
-// Remove default border
+// usage
+// spacing(4);
 
-fieldset {
-  border: none;
+@function spacing($value) {
+  @return map-get($spacings, $value);
 }

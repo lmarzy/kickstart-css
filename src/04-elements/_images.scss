@@ -1,5 +1,5 @@
 // ========================================================================
-// BASE/IMAGES
+// ELEMENTS/IMAGES
 // ========================================================================
 
 // max-width - Set for responsive purpose
@@ -10,10 +10,20 @@ img {
   max-width: 100%;
   vertical-align: auto;
   border-style: none;
+  font-style: italic;
 }
 
-// Remove defautl margin
+// If a `width` and/or `height` attribute have been explicitly defined, let’s
+// not make the image fluid.
 
-figure {
-  margin: 0;
+img[width],
+img[height] {
+  max-width: none;
+}
+
+// If a alt is empty or is missing, display a big red border
+
+img[alt=""],
+img:not([alt]) {
+  border: 5px dashed #c00;
 }

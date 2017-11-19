@@ -1,9 +1,10 @@
 // ========================================================================
-// ELEMENTS/FORMS
+// HELPERS/TOOLS/FUNCTIONS/FONT-SIZE
 // ========================================================================
 
-// Remove default border
+// usage
+// spacing(4);
 
-fieldset {
-  border: none;
+@function font-size($value) {
+  @return map-get($font-size, $value);
 }
