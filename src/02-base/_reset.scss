@@ -2,21 +2,33 @@
 // BASE/RESET
 // ========================================================================
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body,
+blockquote,
+fieldset,
+figure {
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
 h4,
 p,
 dl,
-dd,
 ol,
-ul,
-blockquote,
-fieldset,
-figure {
-  margin: 0;
-  padding: 0;
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h1,
@@ -36,11 +48,26 @@ strong {
   font-weight: bold;
 }
 
+ol,
+ul {
+  list-style: none;
+}
+
+dd {
+  margin-left: 0;
+}
+
 button,
 input,
 select {
   font: inherit;
   cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 // Set display to block for IE

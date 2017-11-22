@@ -1,6 +1,13 @@
 // ========================================================================
-// BASE/IMPORTS
+// CORE/BASE/BOX-SIZING
 // ========================================================================
 
-@import 'box-sizing';
-@import 'reset';
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

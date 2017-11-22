@@ -1,10 +1,8 @@
 // ========================================================================
-// ELEMENTS/TABLES
+// CORE/ELEMENTS/TABLES
 // ========================================================================
 
-// width - set to 100%
-// border-collapse - collapse borders into a single border
-// border-spacing - remove distance between the borders of adjacent cells
+// Remove default table spacing and ensure tables fill up all available space
 
 table {
   width: 100%;
