@@ -1,9 +1,7 @@
 // ========================================================================
-// HELPERS/TOOLS/MIXINS/IMPORTS
+// PARTIALS/HEADER
 // ========================================================================
 
-@import 'breakpoints';
-@import 'clearfix';
-@import 'grid-widths';
-@import 'vertical-rhythm';
-@import 'hidden-visually';
+/* stylelint-disable */
+.c-site-header {}
+/* stylelint-enable */

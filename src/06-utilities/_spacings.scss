@@ -1,9 +1,9 @@
 // ========================================================================
-// HELPERS/TOOLS/MIXINS/IMPORTS
+// UTILITIES/SPACINGS
 // ========================================================================
 
-@import 'breakpoints';
-@import 'clearfix';
-@import 'grid-widths';
-@import 'vertical-rhythm';
-@import 'hidden-visually';
+@each $key, $value in $spacings {
+  .u-mb-#{$key} {
+    margin-bottom: $value !important;
+  }
+}

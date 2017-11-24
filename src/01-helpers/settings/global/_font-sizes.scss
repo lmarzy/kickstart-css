@@ -3,8 +3,15 @@
 // ========================================================================
 
 $font-sizes: (
-  1: 12px,
-  2: 14px,
-  3: 18px,
-  4: 20px
+  12: 12px,
+  14: 14px
 );
+
+// To access this map use the following function
+
+// Example usage
+// spacing(4);
+
+@function font-size($value) {
+  @return map-get($font-size, $value);
+}

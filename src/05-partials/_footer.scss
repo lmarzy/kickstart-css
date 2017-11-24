@@ -1,10 +1,9 @@
 // ========================================================================
-// HELPERS/TOOLS/FUNCTIONS/FONT-SIZE
+// PARTIALS/FOOTER
 // ========================================================================
 
-// usage
-// spacing(4);
+// 07/COMPONENTS - SITE-FOOTER
 
-@function font-size($value) {
-  @return map-get($font-size, $value);
-}
+/* stylelint-disable */
+.c-site-footer {}
+/* stylelint-enable */

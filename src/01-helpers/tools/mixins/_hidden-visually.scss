@@ -3,9 +3,9 @@
 // ========================================================================
 
 // Usage
-// @include vh;
+// @include hidden-visually;
 
-@mixin vh {
+@mixin hidden-visually {
   overflow: hidden;
   position: absolute;
   clip: rect(0 0 0 0);

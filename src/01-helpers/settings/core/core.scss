@@ -1,10 +1,7 @@
 // ========================================================================
-// HELPERS/TOOLS/FUNCTIONS/SPACINGS
+// SETTINGS/CORE/IMPORTS
 // ========================================================================
 
-// usage
-// spacing(4);
-
-@function spacing($value) {
-  @return map-get($spacings, $value);
-}
+@import 'color-palette';
+@import 'paths';
+@import 'typography';

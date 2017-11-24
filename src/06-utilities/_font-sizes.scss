@@ -1,3 +1,9 @@
 // ========================================================================
-// UTILITIES/IMPORTS
+// UTILITIES/FONT-SIZES
 // ========================================================================
+
+@each $key, $value in $font-sizes {
+  .u-fs-#{$key} {
+    font-size: $value !important;
+  }
+}

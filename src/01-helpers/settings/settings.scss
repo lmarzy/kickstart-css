@@ -2,13 +2,5 @@
 // SETTINGS/IMPORTS
 // ========================================================================
 
-@import 'breakpoints';
-@import 'colors';
-@import 'core';
-@import 'font-sizes';
-@import 'layout';
-@import 'links';
-@import 'misc';
-@import 'paths';
-@import 'spacings';
-@import 'typography';
+@import 'core/core';
+@import 'global/global';
