@@ -1,11 +1,10 @@
 // ========================================================================
-// LAYOUT/CONTAINER
+// HELPERS/TOOLS/FUNCTIONS/SPACINGS
 // ========================================================================
 
-.l-container {
-  max-width: $max-width;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: $gutter;
-  padding-right: $gutter;
+// usage
+// spacing(4);
+
+@function spacing($value) {
+  @return map-get($spacings, $value);
 }

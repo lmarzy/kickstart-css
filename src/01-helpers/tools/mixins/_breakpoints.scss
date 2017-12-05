@@ -2,7 +2,7 @@
 // HELPERS/TOOLS/MIXINS/BREAKPOINTS
 // ========================================================================
 
-// Usage
+// usage
 // @include bp(10) {}
 // @include bp(10, max) {}
 
@@ -14,7 +14,7 @@
   @else {
     @if ($type == "min") {
       /* stylelint-disable */
-      @media (#{$type}-width: #{rem(map-get($breakpoints, $breakpoint))}) {
+      @media (#{$type}-width: #{em(map-get($breakpoints, $breakpoint))}) {
         @content;
       }
       /* stylelint-enable */
@@ -22,7 +22,7 @@
 
     @else {
       /* stylelint-disable */
-      @media (#{$type}-width: #{rem(map-get($breakpoints, $breakpoint) - 1)}) {
+      @media (#{$type}-width: #{em(map-get($breakpoints, $breakpoint) - 1)}) {
         @content;
       }
       /* stylelint-enable */
@@ -44,7 +44,7 @@
 
   @else {
     /* stylelint-disable */
-    @media (min-width: #{rem(map-get($breakpoints, $min))}) and (max-width: #{rem(map-get($breakpoints, $max) - 1)}) {
+    @media (min-width: #{em(map-get($breakpoints, $min))}) and (max-width: #{em(map-get($breakpoints, $max) - 1)}) {
       @content;
     }
     /* stylelint-enable */

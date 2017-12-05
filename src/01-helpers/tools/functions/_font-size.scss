@@ -1,5 +1,10 @@
 // ========================================================================
-// SETTINGS/LINKS
+// HELPERS/TOOLS/FUNCTIONS/FONT-SIZE
 // ========================================================================
 
-$link-text-decoration : none;
+// Example usage
+// spacing(4);
+
+@function font-size($value) {
+  @return map-get($font-size, $value);
+}

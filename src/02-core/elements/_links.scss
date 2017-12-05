@@ -12,7 +12,7 @@ a {
   &:link {
     color: $col-links;
     background-color: transparent;
-    text-decoration: $link-text-decoration;
+    text-decoration: none;
   }
 
   &:visited {

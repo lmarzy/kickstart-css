@@ -11,14 +11,3 @@ $spacings: ();
   $ranges: ($i: $multiplier * $i);
   $spacings: map-merge($spacings, $ranges);
 }
-
-// To access this map use the following function
-
-// Example usage
-
-// usage
-// spacing(4);
-
-@function spacing($value) {
-  @return map-get($spacings, $value);
-}

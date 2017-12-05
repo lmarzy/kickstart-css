@@ -6,12 +6,3 @@ $font-sizes: (
   12: 12px,
   14: 14px
 );
-
-// To access this map use the following function
-
-// Example usage
-// spacing(4);
-
-@function font-size($value) {
-  @return map-get($font-size, $value);
-}
