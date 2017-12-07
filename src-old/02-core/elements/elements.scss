@@ -1,8 +1,8 @@
 // ========================================================================
-// MAIN/IMPORTS
+// CORE/ELEMENTS/IMPORTS
 // ========================================================================
 
-@import '01-settings/settings';
-// @import '02-tools/tools';
-@import '03-base/base';
-@import '04-elements/elements';
+@import 'page';
+@import 'links';
+@import 'images';
+@import 'tables';
