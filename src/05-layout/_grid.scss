@@ -5,7 +5,7 @@
 .l-grid {
   display: grid;
   grid-template-columns: repeat($grid-columns, 1fr);
-  grid-gap: $gutter-sm;
+  grid-gap: $gutter;
 }
 
 @include grid-widths;
