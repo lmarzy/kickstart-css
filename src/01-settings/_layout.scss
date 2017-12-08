@@ -1,10 +1,8 @@
 // ========================================================================
-// SETTINGS/IMPORTS
+// SETTINGS/LAYOUT
 // ========================================================================
 
-@import 'typography';
-@import 'colours';
-@import 'breakpoints';
-@import 'spacers';
-@import 'layout';
-@import 'misc';
+$max-width      : 1224px;
+$grid-columns   : 12;
+$gutter-sm      : $line-height-px / 2;
+$gutter-lg      : $line-height-px;

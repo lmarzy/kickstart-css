@@ -1,0 +1,15 @@
+// ========================================================================
+// SETTINGS/SPACINGS
+// ========================================================================
+
+$spacer: $line-height-px / 4;
+$range: 4;
+
+$spacers: (
+  1: $spacer
+);
+
+@for $i from 1 through $range {
+  $ranges: ($i + $i: $spacer * ($i + $i));
+  $spacers: map-merge($spacers, $ranges);
+}
