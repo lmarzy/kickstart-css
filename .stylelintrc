@@ -9,6 +9,7 @@
         "return",
         "if",
         "warn",
+        "error",
         "else",
         "for",
         "each",
