@@ -1,6 +1,9 @@
 // ========================================================================
-// TOOLS/IMPORTS
+// COMPONENTS/BUTTON
 // ========================================================================
 
-@import 'functions/functions';
-@import 'mixins/mixins';
+.c-btn {
+  display: inline-block;
+  padding: spacing(2) spacing(4);
+  text-align: center;
+}

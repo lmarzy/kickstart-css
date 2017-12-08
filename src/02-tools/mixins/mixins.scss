@@ -1,6 +1,9 @@
 // ========================================================================
-// TOOLS/IMPORTS
+// HELPERS/TOOLS/MIXINS/IMPORTS
 // ========================================================================
 
-@import 'functions/functions';
-@import 'mixins/mixins';
+@import 'breakpoints';
+@import 'clearfix';
+@import 'grid-widths';
+@import 'vertical-rhythm';
+@import 'hidden-visually';

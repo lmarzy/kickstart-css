@@ -1,6 +1,9 @@
 // ========================================================================
-// TOOLS/IMPORTS
+// UTILITIES/FONT-SIZES
 // ========================================================================
 
-@import 'functions/functions';
-@import 'mixins/mixins';
+@each $key, $value in $font-sizes {
+  .u-fs-#{$key} {
+    font-size: $value !important;
+  }
+}

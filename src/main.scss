@@ -6,8 +6,4 @@
 @import '02-tools/tools';
 @import '03-base/base';
 @import '04-elements/elements';
-
-body {
-  font-size: font-size(l);
-  margin-bottom: spacer(4);
-}
+@import '05-layout/layout';
