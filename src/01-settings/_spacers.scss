@@ -2,16 +2,15 @@
 // SETTINGS/SPACERS
 // ========================================================================
 
-$spacer: $line-height-px / 4;
-$range: 4;
+$rhythm       : $line-height-px;
+$spacer-start : $rhythm / 4;
+$range        : 4;
 
 $spacers: (
-  1: $spacer
+  1: $spacer-start
 );
 
 @for $i from 1 through $range {
-  $ranges: ($i + 1: $spacer * ($i + $i));
+  $ranges: ($i + 1: $spacer-start * ($i + $i));
   $spacers: map-merge($spacers, $ranges);
 }
-
-@debug $spacers;

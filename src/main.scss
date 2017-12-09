@@ -11,3 +11,6 @@
 @import '07-partials/partials';
 @import '08-utilities/utilities';
 
+body {
+  @include vr(20px, 1, 1);
+}
