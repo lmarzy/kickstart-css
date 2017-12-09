@@ -2,15 +2,11 @@
 // MAIN/IMPORTS
 // ========================================================================
 
-@import '01-settings/settings';
-@import '02-tools/tools';
-@import '03-base/base';
-@import '04-elements/elements';
-@import '05-layout/layout';
-@import '06-components/components';
-@import '07-partials/partials';
-@import '08-utilities/utilities';
-
-body {
-  @include vr(20px, 1, 1);
-}
+@import 'settings/settings';
+@import 'tools/tools';
+@import 'base/base';
+@import 'elements/elements';
+@import 'layout/layout';
+@import 'components/components';
+@import 'partials/partials';
+@import 'utilities/utilities';
